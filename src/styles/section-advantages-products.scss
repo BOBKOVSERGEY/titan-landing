@@ -1,0 +1,129 @@
+.section-advantages-products {
+  -moz-transform: skew(0deg, -10deg);
+  -webkit-transform: skew(0deg, -10deg);
+  -o-transform: skew(0deg, -10deg);
+  -ms-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  background: #FF0030;
+
+}
+#section-advantages-products {
+  -moz-transform: skew(0deg, 10deg);
+  -webkit-transform: skew(0deg, 10deg);
+  -o-transform: skew(0deg, 10deg);
+  -ms-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+}
+.section-advantages-products h2 {
+  font-family: RobotoBold;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 80px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.section-advantages-products p {
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.img-advantages img {
+  width: 100px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+.img-advantages {
+  margin-bottom: 20px;
+}
+.advantages-circle-1{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/advantages-circle-red-1.png') center center no-repeat #fff;
+  margin: 40px auto;
+  transition: all 0.4s ease 0s;
+}
+.advantages-circle-1:hover{
+
+  background: url('../images/advantages-circle-1.png') center center no-repeat #333399;
+
+}
+.advantages-circle-2{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/advantages-circle-red-2.png') center center no-repeat #fff;
+  margin: 40px auto;
+}
+.advantages-circle-2:hover{
+
+  background: url('../images/advantages-circle-2.png') center center no-repeat #333399;
+
+}
+.advantages-circle-3:hover{
+
+  background: url('../images/advantages-circle-3.png') center center no-repeat #333399;
+
+}
+.advantages-circle-4:hover{
+
+  background: url('../images/advantages-circle-4.png') center center no-repeat #333399;
+
+}
+.advantages-circle-5:hover{
+
+  background: url('../images/advantages-circle-5.png') center center no-repeat #333399;
+
+}
+.advantages-circle-6:hover{
+
+  background: url('../images/advantages-circle-6.png') center center no-repeat #333399;
+
+}
+.advantages-circle-3{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/advantages-circle-red-3.png') center center no-repeat #fff;
+  margin: 40px auto;
+}
+.advantages-circle-4{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/advantages-circle-red-4.png') center center no-repeat #fff;
+  margin: 40px auto;
+}
+.advantages-circle-5{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/advantages-circle-red-5.png') center center no-repeat #fff;
+  margin: 40px auto;
+}
+.advantages-circle-6{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/advantages-circle-red-6.png') center center no-repeat #fff;
+  margin: 40px auto;
+}
+.advantages-circle-1:hover,
+.advantages-circle-2:hover,
+.advantages-circle-3:hover,
+.advantages-circle-4:hover,
+.advantages-circle-5:hover,
+.advantages-circle-6:hover {
+  opacity: .9;
+}
+.advantages-circle-1:hover {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

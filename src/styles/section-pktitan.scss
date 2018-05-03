@@ -1,0 +1,61 @@
+.section-pktitan {
+  margin-top: -180px;
+  background: url('../images/section-pktitan-bg.jpg')  center center no-repeat #fff;
+  background-size: cover;
+  color: #fff;
+}
+#section-pktitan {
+  padding-top: 360px;
+  padding-bottom: 360px;
+}
+.section-pktitan h2{
+  font-family: RobotoBold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+.section-pktitan-bg-top {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.section-pktitan-anons {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: RobotoBold;
+}
+.section-pktitan-advantages{
+  margin-top: 40px;
+}
+.section-pktitan-advantages p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  background: rgba(255,255,255,.8);
+  color: #333;
+  padding: 15px 5px 15px 25px;
+}
+.section-pktitan-advantages p:hover {
+  background: rgba(51,51,153,.8);
+  color: #fff;
+}
+.section-pktitan-border {
+  border-right: 5px solid #FF0030;;
+}
+
+.section-pktitan-advantages span {
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+  transform: skewX(20deg);
+  display: inline-block;
+}

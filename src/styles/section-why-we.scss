@@ -1,0 +1,55 @@
+.section-why-we {
+  -moz-transform: skew(0deg, -10deg);
+  -webkit-transform: skew(0deg, -10deg);
+  -o-transform: skew(0deg, -10deg);
+  -ms-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  background: #fff;
+
+}
+#section-why-we {
+  -moz-transform: skew(0deg, 10deg);
+  -webkit-transform: skew(0deg, 10deg);
+  -o-transform: skew(0deg, 10deg);
+  -ms-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  padding-top: 180px;
+  padding-bottom: 180px;
+
+}
+.section-why-we h2 {
+  font-family: RobotoBold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+.section-why-we p{
+  font-size: 22px;
+}
+.section-why-we-circle-1{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/section-why-we-circle-1.png') center center no-repeat #333399;
+  margin: 40px auto;
+}
+.section-why-we-circle-1:hover,
+.section-why-we-circle-2:hover,
+.section-why-we-circle-3:hover {
+  opacity: .9;
+}
+.section-why-we-circle-2{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/section-why-we-circle-2.png') center center no-repeat #FF0030;
+  margin: 40px auto;
+}
+.section-why-we-circle-3{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('../images/section-why-we-circle-3.png') center center no-repeat #FF0030;
+  margin: 40px auto;
+}
