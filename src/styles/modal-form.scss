@@ -105,17 +105,17 @@
   right: -22px;
 }
 .paralel-skew:hover::before {
-  border-color: transparent transparent #333399;
+  border-color: transparent transparent #0F4E9D;
 }
 .paralel-skew:hover::after {
-  border-color: #333399 transparent transparent;
+  border-color: #0F4E9D transparent transparent;
 }
 .paralel-green {
   background: #FF0030;
   color: #fff;
 }
 .paralel-green:hover {
-  background: #333399 none repeat scroll 0 0;
+  background: #0F4E9D none repeat scroll 0 0;
   color: #fff;
 }
 .button-submit {

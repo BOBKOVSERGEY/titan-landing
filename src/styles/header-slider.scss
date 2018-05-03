@@ -2,7 +2,7 @@
 slider
 ========================================================================== */
 .slider {
-  background-image: url('../images/bg-slider.jpg');
+  background-image: url('../images/bg-slider-new-2.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -23,8 +23,10 @@ slider
 }
 
 .slider h1 {
+  //font-family: $fontBold;
   color: #fff;
   margin-bottom: 40px;
+  font-size: 34px;
 }
 .slider p.intro {
   color: #fff;
@@ -136,8 +138,8 @@ header .member-actions {
   transform: skewX(-20deg);
 }
 .btn-slanted-slider:hover {
-  background: #333399;
-  border: 2px solid #333399;
+  background: #0F4E9D;
+  border: 2px solid #0F4E9D;
   transition:all 0.6s;
 }
 .btn-slanted-slider > span {
@@ -275,7 +277,7 @@ header .member-actions {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: url('../images/section-why-we-circle-1.png') center center no-repeat #333399;
+  background: url('../images/section-why-we-circle-1.png') center center no-repeat #0F4E9D;
   margin: 40px auto;
 }
 .section-slider-circle-left p {
@@ -293,7 +295,7 @@ header .member-actions {
   padding: 45px 40px;
 }
 .section-slider-circle-left:hover {
-  background: #339;
+  background: #0F4E9D;
 }
 .section-slider-circle-left span{
   text-align: center;
@@ -325,7 +327,7 @@ header .member-actions {
 }
 .section-slider-circle-right:hover p {
   display: block;
-  padding: 30px 40px;
+  padding: 50px 40px 30px 40px;
 }
 .section-slider-circle-right:hover {
   background: #FF0030;
@@ -340,7 +342,7 @@ header .member-actions {
   height: 200px;
   border-radius: 50%;
   font-weight: bold;
-  color: #003A6F;
+  color: #0F4E9D;
   animation: spinZ 20s linear infinite;
   text-align: center;
 }
@@ -367,7 +369,7 @@ header .member-actions {
   height: 200px;
   border-radius: 50%;
   font-weight: bold;
-  color: #003A6F;
+  color: #0F4E9D;
   animation: spinZ 20s linear infinite;
   text-align: center;
 }

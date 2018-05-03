@@ -91,7 +91,7 @@ $(document).ready(function(){
         if (xhr.readyState == 2) {
           if(xhr.status == 200) {
             $("#sendformpopup")[0].reset();
-            $(".modal-title").html('Заявка успешно отправлена!').css({'color':'#333399'});
+            $(".modal-title").html('Заявка успешно отправлена!').css({'color':'#0F4E9D'});
           }
         }
       };
@@ -386,7 +386,7 @@ $( function() {
           "top": "40px",
         });
         $('.header-icon-phone').css({
-          'background': '#333399'
+          'background': '#0F4E9D'
         });
         $('.logo img').attr('src', 'dist/images/new-logo-white.png');
         /*
@@ -431,7 +431,12 @@ $( function() {
 
   preloadImages(
     "dist/images/new-logo-white.png",
-    "dist/images/new-logo.png"
+    "dist/images/new-logo.png",
+    "dist/images/adv-2-white.png",
+    "dist/images/adv-3-white.png",
+    "dist/images/adv-4-white.png",
+    "dist/images/advantages-circle-1.png"
+
   );
 
 } );
