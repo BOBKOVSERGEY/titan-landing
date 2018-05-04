@@ -435,8 +435,17 @@ $( function() {
     "dist/images/adv-2-white.png",
     "dist/images/adv-3-white.png",
     "dist/images/adv-4-white.png",
+    "dist/images/adv-5-white.png",
+    "dist/images/adv-6-white.png",
     "dist/images/advantages-circle-1.png"
 
   );
+
+  var now = new Date();
+  var getYear = now.getFullYear();
+  var elCopyrightYear = document.getElementById('copyright-date');
+  if (elCopyrightYear) {
+    elCopyrightYear.innerHTML = getYear;
+  }
 
 } );

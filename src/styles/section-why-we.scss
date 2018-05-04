@@ -31,7 +31,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: url('../images/section-why-we-circle-1.png') center center no-repeat #333399;
+  background: url('../images/section-why-we-circle-1.png') center center no-repeat $colorBlue;
   margin: 40px auto;
 }
 .section-why-we-circle-1:hover,
@@ -43,7 +43,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: url('../images/section-why-we-circle-2.png') center center no-repeat #FF0030;
+  background: url('../images/section-why-we-2.png') center center no-repeat #FF0030;
   margin: 40px auto;
 }
 .section-why-we-circle-3{
@@ -52,4 +52,50 @@
   border-radius: 50%;
   background: url('../images/section-why-we-circle-3.png') center center no-repeat #FF0030;
   margin: 40px auto;
+}
+
+.btn-slanted-why-we {
+  font-family: RobotoLight;
+  display: inline-block;
+  position:relative;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 19px 60px;
+  border-radius: 2px 5px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #FF0030;
+  border: 2px solid #FF0030;
+  transition:all 0.6s
+}
+.btn-slanted-why-we span {
+  text-align: center;
+  position: relative;
+}
+.btn-slanted-why-we,
+.btn-slanted-why-we > span {
+  color: #fff;
+}
+.btn-slanted-why-we:hover,
+.btn-slanted-why-we:hover > span {
+  color: #fff;
+}
+
+.btn-slanted-why-we {
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+.btn-slanted-why-we:hover {
+  background: #0F4E9D;
+  border: 2px solid #0F4E9D;
+  transition:all 0.6s;
+}
+.btn-slanted-why-we > span {
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  display: inline-block;
 }

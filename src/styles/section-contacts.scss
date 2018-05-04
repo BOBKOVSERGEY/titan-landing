@@ -110,8 +110,8 @@
   transform: skewX(-20deg);
 }
 .button-order:hover {
-  background: #333399;
-  border: 2px solid #333399;
+  background: $colorBlue;
+  border: 2px solid $colorBlue;
   transition:all 0.6s;
 }
 .button-order > span {
@@ -133,7 +133,7 @@
   margin-top: 10px!important;
   display: inline-block;
   cursor: pointer;
-  background-color: #333399;
+  background-color: $colorBlue;
   width: 150px;
   padding: 5px 15px;
   transition: all 0.3s;
@@ -141,7 +141,7 @@
 
 }
 .upload-file:hover {
-  background-color: rgba(51,51,153, 0.8);
+  background-color: rgba($colorBlue, 0.8);
 }
 .hide-type-file {
   position: absolute;

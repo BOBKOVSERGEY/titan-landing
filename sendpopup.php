@@ -18,7 +18,7 @@ if ( isset( $_POST['sendMail'] ) ) {
 // Вспомогательная функция для отправки почтового сообщения с вложением
 function send_mail($to, $body, $email, $filepath, $filename)
 {
-  $subject = "=?utf-8?B?". base64_encode("Заявка на обратный звонок с лендинга воздуховоды ПКТИТАН"). "?=";
+  $subject = "=?utf-8?B?". base64_encode("Заявка на обратный звонок с лендинга вентиляторы ПКТИТАН"). "?=";
   $boundary = "--".md5(uniqid(time())); // генерируем разделитель
   $headers = "From: info@pktitan.ru\r\n";
     $headers .= "Bcc: sd@pktitan.ru\r\n";
